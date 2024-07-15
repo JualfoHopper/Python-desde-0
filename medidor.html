@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Cuál es tu talla de anillo?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Encuentra tu talla de anillo?</h1>
+      <input
+        type="range"
+        min="51.84"
+        max="82.30"
+        value="51.84"
+        class="slider"
+        id="diameterSlider"
+      />
+      <p>Diámetro: <span id="diameterValue"></span> mm</p>
+      <p>Talla de Anillo: <span id="ringMeasurement"></span></p>
+      <canvas id="circleCanvas" width="200" height="200"></canvas>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
